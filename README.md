@@ -1,4 +1,4 @@
-# API-Ingestion-Pipeline-for-Hospitality-Intelligence
+API-Ingestion-Pipeline-for-Hospitality-Intelligence
 
 
 This project is a data engineering pipeline that ingests real-time data from external APIs, processes it, and stores it in a structured database.
@@ -6,7 +6,7 @@ This project is a data engineering pipeline that ingests real-time data from ext
 The goal is to simulate the data backbone of an AI Concierge system, where external data (like weather and events) is continuously collected and made available for downstream analytics and recommendations.
 
 
-#Objectives
+Objectives
 
 
 Extract data from a real-world API (weather data)
@@ -16,7 +16,10 @@ Build a modular ETL pipeline
 Prepare data for future analytics and AI use cases
 
 
-#Architecture
+
+Architecture
+
+
 API (Weather Data)
         ↓
 Extract (requests)
@@ -28,7 +31,9 @@ Load (MySQL)
 Schedule (Cron Job / Orchestrator)
 
 
-#Project Stucture
+
+Project Stucture
+
 
 api-ingestion-pipeline/
 │
@@ -47,7 +52,9 @@ api-ingestion-pipeline/
 
 
 
-#Technologies Used
+
+
+Technologies Used
 
 - Python  
 - requests (API calls)  
@@ -79,18 +86,18 @@ Weather data is fetched from:
 
 
 
-#Database
+Database
 <img width="1429" height="617" alt="image" src="https://github.com/user-attachments/assets/7a48da11-bdd7-4bac-8d1c-fbea71f7a487" />
 
 
 
-#Workflow Architecture
+Workflow Architecture
 
 <img width="980" height="886" alt="image" src="https://github.com/user-attachments/assets/5572082c-1efd-4199-a79a-ba51b9d800fc" />
 
 
 
-#Key Learnings
+Key Learnings
 
 
 Understanding API-based data ingestion
@@ -101,7 +108,7 @@ Handling real-world debugging issues
 
 
 
-#Project Context
+Project Context
 
 This project is part of a larger system:
 
