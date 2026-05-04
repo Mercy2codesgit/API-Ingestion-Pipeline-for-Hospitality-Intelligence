@@ -1,10 +1,14 @@
 # API-Ingestion-Pipeline-for-Hospitality-Intelligence
+
+
 This project is a data engineering pipeline that ingests real-time data from external APIs, processes it, and stores it in a structured database.
 
 The goal is to simulate the data backbone of an AI Concierge system, where external data (like weather and events) is continuously collected and made available for downstream analytics and recommendations.
 
 
 #Objectives
+
+
 Extract data from a real-world API (weather data)
 Transform unstructured JSON into structured format
 Load data into a relational database (MySQL)
@@ -87,6 +91,8 @@ Weather data is fetched from:
 
 
 #Key Learnings
+
+
 Understanding API-based data ingestion
 Structuring ETL pipelines
 Managing Python project imports
